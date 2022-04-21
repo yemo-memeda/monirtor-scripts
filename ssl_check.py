@@ -16,17 +16,17 @@ from collections import namedtuple
 HostInfo = namedtuple(field_names='cert hostname peername', typename='HostInfo')
 
 HOSTS = [
-    ('wpbill-uat.dustess360.com', 443),
-    ('wpbill.keen-dental.com', 443),
-    ('mk.chem99.com', 443),
-    ('mk-dustess.xwfintech.com', 443),
-    ('mk.ayssaas.com', 443),
-    ('mk-tx.mylike.com', 443),
-    ('mk-dustess.uniontech.com', 443),
-    ('wpbill-dustess.naibabao.com', 443),
-    ('mk-m.jingliangzi.net', 443),
-    ('wpbill.gaojihealth.cn', 443),
-    ('wpbill-dustess.topcj.com', 443)
+    ('', 443),
+    ('', 443),
+    ('', 443),
+    ('m', 443),
+    ('', 443),
+    ('', 443),
+    ('', 443),
+    ('.com', 443),
+    ('.net', 443),
+    ('.cn', 443),
+    ('.com', 443)
 ]
 
 def verify_cert(cert, hostname):
